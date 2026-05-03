@@ -34,7 +34,7 @@
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 1]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-blue-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
@@ -47,7 +47,7 @@
                 <span class="text-[10px] text-gray-400 font-medium">150 ads</span>
             </a>
 
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 2]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-orange-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
@@ -60,7 +60,7 @@
                 <span class="text-[10px] text-gray-400 font-medium">1,240 ads</span>
             </a>
 
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 3]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-green-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
@@ -73,7 +73,7 @@
                 <span class="text-[10px] text-gray-400 font-medium">310 ads</span>
             </a>
 
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 5]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-purple-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
@@ -86,20 +86,7 @@
                 <span class="text-[10px] text-gray-400 font-medium">170 ads</span>
             </a>
 
-            <a href="#"
-                class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
-                <div
-                    class="bg-yellow-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
-                    <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                </div>
-                <span class="block font-bold text-gray-800 text-xs">Home</span>
-                <span class="text-[10px] text-gray-400 font-medium">85 ads</span>
-            </a>
-
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 8]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-red-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
@@ -112,7 +99,7 @@
                 <span class="text-[10px] text-gray-400 font-medium">150 ads</span>
             </a>
 
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 4]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-indigo-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">
@@ -127,7 +114,7 @@
                 <span class="text-[10px] text-gray-400 font-medium">170 ads</span>
             </a>
 
-            <a href="#"
+            <a href="{{ route('public.search', ['category' => 7]) }}"
                 class="group bg-white p-6 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-indigo-100 transition duration-300 text-center">
                 <div
                     class="bg-pink-50 w-12 h-12 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition duration-300">

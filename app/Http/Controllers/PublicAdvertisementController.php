@@ -15,9 +15,6 @@ class PublicAdvertisementController extends Controller
      */
     public function index()
     {
-
-        // $user = User::where('id', 16)->get();
-        // dd($user->password);
         $ads = Advertisement::with(['category','location','images'])
             ->where('status', 'active')
             ->latest()
