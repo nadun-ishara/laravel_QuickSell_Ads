@@ -36,7 +36,8 @@ class StoreAdvertisementRequest extends FormRequest
         ];
     }
 
-    public function messages():array{
+    public function messages():array
+    {
         return[
             'images.required'=> 'You must upload at least one photo.',
             'images.min'=> 'Please upload at least :min image.',

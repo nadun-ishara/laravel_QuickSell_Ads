@@ -43,10 +43,4 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::resource('locations', LocationController::class);
 });
 
-Route::middleware(['auth', 'can_moderate'])->group(function () {
-    Route::get('/moderation', [AdminController::class, 'index'])->name('admin.index');
-    Route::post('/ads/{ad}/approve', [AdminController::class, 'approve'])->name('ads.approve');
-    Route::post('/ads/{ad}/reject', [AdminController::class, 'reject'])->name('ads.reject');
-});
-
 require __DIR__.'/auth.php';
